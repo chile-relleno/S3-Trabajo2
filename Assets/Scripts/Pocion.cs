@@ -7,12 +7,12 @@ public class Pocion : MonoBehaviour
         if (otro.name == "Player")
         {
             // Aumenta el contador global
-           // ControlJuego.pociones++;
+            ControladorJuego.pociones++;
 
             // Destruye la poción
             Destroy(gameObject);
 
-           // Debug.Log("Pociones: " + ControlJuego.pociones);
+            Debug.Log("Pociones: " + ControladorJuego.pociones);
 
         }
     }
